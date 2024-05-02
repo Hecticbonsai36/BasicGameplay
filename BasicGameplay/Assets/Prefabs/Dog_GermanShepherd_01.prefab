@@ -3774,6 +3774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4417957948476735454}
   - component: {fileID: 4417957948471831234}
+  - component: {fileID: 8312748243883678239}
   m_Layer: 0
   m_Name: SM_GermanShepherd_01
   m_TagString: Untagged
@@ -3892,6 +3893,19 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000009313226, y: -0.026036747, z: 0.09034608}
     m_Extent: {x: 0.045073755, y: 0.10734234, z: 0.13860275}
   m_DirtyAABB: 0
+--- !u!65 &8312748243883678239
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4417957948477010274}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15, y: 0.25, z: 0.3}
+  m_Center: {x: -0, y: 0.11999998, z: 0}
 --- !u!1 &4417957948477011706
 GameObject:
   m_ObjectHideFlags: 0
@@ -3904,8 +3918,7 @@ GameObject:
   - component: {fileID: 4417957948467532712}
   - component: {fileID: 4417957947333266766}
   - component: {fileID: 1686171628410535971}
-  - component: {fileID: 5365018209946275632}
-  - component: {fileID: 3276998775451840786}
+  - component: {fileID: 5982534740716836434}
   m_Layer: 0
   m_Name: Dog_GermanShepherd_01
   m_TagString: Untagged
@@ -4010,7 +4023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7475f02032deefd4b9003a181e0b3a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5365018209946275632
+--- !u!114 &5982534740716836434
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4019,19 +4032,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4417957948477011706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7475f02032deefd4b9003a181e0b3a1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &3276998775451840786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4417957948477011706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7475f02032deefd4b9003a181e0b3a1b, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b796fcda2b4d8b418fe638d168c6fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4417957948477011916
